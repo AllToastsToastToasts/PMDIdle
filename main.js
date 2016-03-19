@@ -14,3 +14,8 @@ function dig(){
 	firstDig = firstDig + 1
 	refreshStats();
 }
+
+function rest(){
+	HP = HP + 1
+	refreshStats();
+}
