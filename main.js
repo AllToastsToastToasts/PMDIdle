@@ -4,8 +4,6 @@ var firstDig = 0;
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
-}
-function refreshStats(){
 	document.getElementById("firstDig").innerHTML = firstDig;
 }
 
