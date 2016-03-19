@@ -1,5 +1,5 @@
 
-var HP = 0;
+var HP = 100;
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
