@@ -19,6 +19,12 @@ function dig(){
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...'
 	        	}
+		        if(firstDig >= 250){
+	firstDigtext = 'You can see some light there...'
+	        	}
+		        if(firstDig >= 500){
+	firstDigtext = 'Freedom!!!'
+	        	}
 	refreshStats();
 	}
 }
