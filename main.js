@@ -1,6 +1,7 @@
 
 var HP = 100;
 var firstDig = 0;
+var firstDigtext = 'You are somewhere...';
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
@@ -10,6 +11,9 @@ function refreshStats(){
 function dig(){
 	HP = HP - 1
 	firstDig = firstDig + 1
+	        if(firstDig >= 1){
+	firstDigtext = 'You started to dig...';
+	        }
 	refreshStats();
 }
 
