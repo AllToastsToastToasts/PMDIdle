@@ -6,6 +6,7 @@ var firstDigtext = 'You are somewhere...';
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
 	document.getElementById("firstDig").innerHTML = firstDig;
+        document.getElementById("firstDigtext").innerHTML = firstDigtext;
 }
 
 function dig(){
