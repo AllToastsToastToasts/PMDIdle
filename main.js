@@ -21,3 +21,7 @@ function rest(){
 	HP = HP + 1
 	refreshStats();
 }
+
+window.setInterval(function(){
+	refreshStats();
+}, 1000);
