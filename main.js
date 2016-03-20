@@ -2,6 +2,8 @@
 var HP = 100;
 var firstDig = 0;
 var firstDigtext = 'You are somewhere...';
+var Soil = 0 
+var SoilYes = '';
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
@@ -14,7 +16,7 @@ function dig(){
 	firstDig = firstDig + 1
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...';
-	        }
+	SoilYes= 'Soil:';}
 	refreshStats();
 }
 
