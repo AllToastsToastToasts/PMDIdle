@@ -14,6 +14,7 @@ function refreshStats(){
 function dig(){
 	health -= 1
 	soil += 0.1
+	soil = math.floor(soil)
 	firstDig += 1
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...'
