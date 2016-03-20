@@ -12,9 +12,9 @@ function refreshStats(){
 }
 
 function dig(){
-	health = health - 1;
-	soil = soil + 0.1;
-	firstDig = firstDig + 1;
+	health -= 1;
+	soil += 0.1;
+	firstDig += 1;
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...';
 	        	}
@@ -22,7 +22,7 @@ function dig(){
 }
 
 function rest(){
-	health = health + 1;
+	health += 1;
 	refreshStats();
 }
 
