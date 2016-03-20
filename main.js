@@ -2,7 +2,7 @@
 var HP = 100;
 var firstDig = 0;
 var firstDigtext = 'You are somewhere...';
-var Soil = 0 ;
+var Soil = 0;
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
