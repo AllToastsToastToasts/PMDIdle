@@ -13,7 +13,7 @@ function refreshStats(){
 
 function dig(){
 	health -= 1
-	soil += 0.1
+	soil += 1
 	firstDig += 1
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...'
