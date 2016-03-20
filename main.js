@@ -2,7 +2,7 @@
 var health = 100
 var soil = 0;
 var firstDig = 0
-var firstDigtext = 'You are somewhere...'
+var firstDigtext = 'You are somewhere... It's dark here.
 
 function refreshStats(){
 	document.getElementById("health").innerHTML = health
