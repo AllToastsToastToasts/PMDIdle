@@ -9,6 +9,8 @@ function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
 	document.getElementById("firstDig").innerHTML = firstDig;
         document.getElementById("firstDigtext").innerHTML = firstDigtext;
+               document.getElementById("Soil").innerHTML = Soil;
+               document.getElementById("SoilYes").innerHTML = SoilYes;
 }
 
 function dig(){
