@@ -22,7 +22,7 @@ function dig(){
 }
 
 function rest(){
-	health = health + 1
+	health = health + 1;
 	refreshStats();
 }
 
