@@ -13,7 +13,7 @@ function refreshStats(){
 
 function dig(){
 	HP = HP - 1
-	Soil = Math.random(0.1, 0.5)
+	Soil = Soil + Math.random(0.1, 0.5)
 	firstDig = firstDig + 1
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...';
