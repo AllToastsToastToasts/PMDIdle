@@ -1,14 +1,14 @@
 
 var health = 100
+var soil = 0;
 var firstDig = 0
 var firstDigtext = 'You are somewhere...'
-var soil = 0;
 
 function refreshStats(){
 	document.getElementById("health").innerHTML = health
+	        document.getElementById("soil").innerHTML = soil;
 	document.getElementById("firstDig").innerHTML = firstDig
         document.getElementById("firstDigtext").innerHTML = firstDigtext
-        document.getElementById("soil").innerHTML = soil;
 }
 
 function dig(){
