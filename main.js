@@ -3,22 +3,20 @@ var HP = 100;
 var firstDig = 0;
 var firstDigtext = 'You are somewhere...';
 var Soil = 0 
-var SoilYes = '';
 
 function refreshStats(){
 	document.getElementById("HP").innerHTML = HP;
 	document.getElementById("firstDig").innerHTML = firstDig;
         document.getElementById("firstDigtext").innerHTML = firstDigtext;
         document.getElementById("Soil").innerHTML = Soil;
-        document.getElementById("SoilYes").innerHTML = SoilYes;
 }
 
 function dig(){
 	HP = HP - 1
+	Soil = Math.random(0.1, 0.5)
 	firstDig = firstDig + 1
 	        if(firstDig >= 1){
 	firstDigtext = 'You started to dig...';
-	SoilYes= 'Soil:';
 	        	}
 	refreshStats();
 }
